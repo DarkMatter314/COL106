@@ -63,6 +63,3 @@ def findMaxCapacity(n:int, links:list, s:int, t:int):
         path.append(route)
     path.reverse()
     return (vertex[0], path)
-
-# print(findMaxCapacity(7,[(0,1,10),(0,2,5),(1,3,20),(2,3,11),(3,4,100),(3,5,100),(4,6,100),(5,6,100)] ,0,6))
-# print(findMaxCapacity(6,[(0,1,12),(0,4,7),(0,5,4),(1,2,8),(1,4,9),(2,3,5),(2,5,7),(3,4,6),(3,5,13)],0,3))
