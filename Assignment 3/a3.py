@@ -107,11 +107,3 @@ class PointDatabase:
             elif(self.xsorted[ptr.data][0]>q[0]+d): ptr=ptr.left
             elif(self.xsorted[ptr.data][0]<q[0]-d): ptr=ptr.right
         return queryans
-            
-
-pointDbObject = PointDatabase([(1,6), (2,4), (3,7), (4,9), (5,1), (6,3), (7,8), (8,10),(9,2), (10,5)])
-# print(pointDbObject.searchNearby((5,5), 1))
-# print(pointDbObject.searchNearby((10,2), 1.5))
-# print(pointDbObject.searchNearby((4,8),2))
-# obj = PointDatabase([(-11,9),(-9,-5),(-5,8),(-3,3),(-2,6),(-1,0),(0,12),(1,2),(2,-1),(4,-2),(5,-6),(10,11),(11,4),(12,5)])
-# print(obj.searchNearby((1,6),2))
